@@ -1,0 +1,18 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "2.0",
+        "magento-hackathon/composer-command-integrator": "dev-master",
+        "n98/magerun": "~1.90"
+    },
+    "require-dev": {
+        "aoepeople/aoe_templatehints": "~0.4",
+        "aoepeople/aoe_profiler": "~0.3"
+    },
+    "repositories": [
+        {"type": "composer", "url": "http://packages.firegento.com"}
+    ],
+    "extra": {
+        "magento-root-dir": "magento/"
+    }
+}

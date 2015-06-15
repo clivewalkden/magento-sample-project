@@ -1,0 +1,4 @@
+[submodule "magento"]
+	path = magento
+	url = git@github.com:OpenMage/magento-mirror.git
+	branch = magento-1.9
